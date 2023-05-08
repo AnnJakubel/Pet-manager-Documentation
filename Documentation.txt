@@ -1,0 +1,58 @@
+# Pet Manager
+## Author: Annabel Jakubel
+
+## Commentary:
+Täiendasin projekti talvisest kandideerimisest, 
+versioonikonfliktide tõttu ei õnnestunud mul kõiki tehnoloogiaid
+viimsetele versioonidele üle viia.
+
+
+## Technologies used
+### Frontend
+Angular 15.0.4
+Node 18.10.0
+Typescript 4.8.4
+Rxjs 7.5.7
+
+### Backend
+Spring Boot 3.0.1
+Spring Security 6.0.1
+Spring Data JPA 3.0.1
+Spring JDBC 3.0.1
+Java 19
+Liquibase 4.17.2
+H2 Database 2.1.214
+Lombok 1.18.24
+
+
+## Run guide
+### Backend
+Navigate to project root either with command line or 
+open terminal in the IDE after opening the project,
+type the following command to run backend:
+mvn spring-boot:run
+
+Backend is running on the following address:
+http://localhost:8080/pets
+
+### Frontend
+Navigate to project root either with command line or 
+open terminal in the IDE after opening the project,
+type the following command to run frontend:
+ng serve
+
+Frontend is running on the following address:
+http://localhost:4200/pets
+
+
+## Commentary
+Peamine fookus läks  projekti täiendades sellele, et püüda autentimise tööle saada
+ning täiendada liquibase andmebaasi skeeme.
+Paraku, kui vahepeal töötas siis projekti esitamise hetkel 
+suutsin jõuda vastamisi uute erroritega mis ilmselt tuleneb ka
+osalistest versioonikonfliktidest.
+
+
+
+
+
